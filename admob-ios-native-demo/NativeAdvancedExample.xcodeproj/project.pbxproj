@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97F1E8E546ACD8FB9BE6B8C0 /* libPods-NativeAdvancedExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E4DA94204E0E08F7245030 /* libPods-NativeAdvancedExample.a */; };
+		CF9335BD1B26706400DEF1B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9335BC1B26706400DEF1B4 /* main.m */; };
+		CF9335C01B26706400DEF1B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9335BF1B26706400DEF1B4 /* AppDelegate.m */; };
+		CF9335C31B26706400DEF1B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9335C21B26706400DEF1B4 /* ViewController.m */; };
+		CF9335C61B26706400DEF1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9335C41B26706400DEF1B4 /* Main.storyboard */; };
+		CF9335C81B26706400DEF1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9335C71B26706400DEF1B4 /* Images.xcassets */; };
+		CF9335CB1B26706400DEF1B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9335C91B26706400DEF1B4 /* LaunchScreen.xib */; };
+		CF9335EC1B26715A00DEF1B4 /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9335E61B26715A00DEF1B4 /* UnifiedNativeAdView.xib */; };
+		E4A5B0E223B0C1840023427C /* MintegralCustomEventInterstitialVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0C023B0C1840023427C /* MintegralCustomEventInterstitialVideo.m */; };
+		E4A5B0E323B0C1840023427C /* MintegralCustomEventNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0C323B0C1840023427C /* MintegralCustomEventNativeAd.m */; };
+		E4A5B0E423B0C1840023427C /* MintegralMediatedNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0C623B0C1840023427C /* MintegralMediatedNativeAd.m */; };
+		E4A5B0E523B0C1840023427C /* MintegralCustomEventBannerAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0C823B0C1840023427C /* MintegralCustomEventBannerAd.m */; };
+		E4A5B0E623B0C1840023427C /* MintegralHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0CB23B0C1840023427C /* MintegralHelper.m */; };
+		E4A5B0E723B0C1840023427C /* MintegralAdNetworkExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0CC23B0C1840023427C /* MintegralAdNetworkExtras.m */; };
+		E4A5B0E823B0C1840023427C /* MintegralCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0D123B0C1840023427C /* MintegralCustomEventInterstitial.m */; };
+		E4A5B0EC23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0DA23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.m */; };
+		E4A5B0ED23B0C1840023427C /* MintegralAdapterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0DD23B0C1840023427C /* MintegralAdapterDelegate.m */; };
+		E4A5B0EE23B0C1840023427C /* MintegralCustomEventRewardedVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A5B0E023B0C1840023427C /* MintegralCustomEventRewardedVideo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59B054DF565A07C352E5B077 /* Pods-NativeAdvancedExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCB1645129899FC94C95C4B /* Pods-NativeAdvancedExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdvancedExample.release.xcconfig"; path = "Target Support Files/Pods-NativeAdvancedExample/Pods-NativeAdvancedExample.release.xcconfig"; sourceTree = "<group>"; };
+		CF9335B71B26706400DEF1B4 /* NativeAdvancedExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAdvancedExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9335BB1B26706400DEF1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9335BC1B26706400DEF1B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9335BE1B26706400DEF1B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF9335BF1B26706400DEF1B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9335C11B26706400DEF1B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF9335C21B26706400DEF1B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF9335C51B26706400DEF1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9335C71B26706400DEF1B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF9335CA1B26706400DEF1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF9335E71B26715A00DEF1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UnifiedNativeAdView.xib; sourceTree = "<group>"; };
+		D8E4DA94204E0E08F7245030 /* libPods-NativeAdvancedExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeAdvancedExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A5B0C023B0C1840023427C /* MintegralCustomEventInterstitialVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventInterstitialVideo.m; sourceTree = "<group>"; };
+		E4A5B0C123B0C1840023427C /* MintegralCustomEventInterstitialVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventInterstitialVideo.h; sourceTree = "<group>"; };
+		E4A5B0C323B0C1840023427C /* MintegralCustomEventNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventNativeAd.m; sourceTree = "<group>"; };
+		E4A5B0C423B0C1840023427C /* MintegralMediatedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralMediatedNativeAd.h; sourceTree = "<group>"; };
+		E4A5B0C523B0C1840023427C /* MintegralCustomEventNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventNativeAd.h; sourceTree = "<group>"; };
+		E4A5B0C623B0C1840023427C /* MintegralMediatedNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralMediatedNativeAd.m; sourceTree = "<group>"; };
+		E4A5B0C823B0C1840023427C /* MintegralCustomEventBannerAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventBannerAd.m; sourceTree = "<group>"; };
+		E4A5B0C923B0C1840023427C /* MintegralCustomEventBannerAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventBannerAd.h; sourceTree = "<group>"; };
+		E4A5B0CB23B0C1840023427C /* MintegralHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralHelper.m; sourceTree = "<group>"; };
+		E4A5B0CC23B0C1840023427C /* MintegralAdNetworkExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralAdNetworkExtras.m; sourceTree = "<group>"; };
+		E4A5B0CD23B0C1840023427C /* MintegralAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralAdNetworkExtras.h; sourceTree = "<group>"; };
+		E4A5B0CE23B0C1840023427C /* MintegralHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralHelper.h; sourceTree = "<group>"; };
+		E4A5B0D023B0C1840023427C /* MintegralCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventInterstitial.h; sourceTree = "<group>"; };
+		E4A5B0D123B0C1840023427C /* MintegralCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventInterstitial.m; sourceTree = "<group>"; };
+		E4A5B0DA23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventRewardedVideoLegacy.m; sourceTree = "<group>"; };
+		E4A5B0DB23B0C1840023427C /* MintegralAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralAdapterProtocol.h; sourceTree = "<group>"; };
+		E4A5B0DC23B0C1840023427C /* MintegralAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralAdapterDelegate.h; sourceTree = "<group>"; };
+		E4A5B0DD23B0C1840023427C /* MintegralAdapterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralAdapterDelegate.m; sourceTree = "<group>"; };
+		E4A5B0DE23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventRewardedVideoLegacy.h; sourceTree = "<group>"; };
+		E4A5B0E023B0C1840023427C /* MintegralCustomEventRewardedVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MintegralCustomEventRewardedVideo.m; sourceTree = "<group>"; };
+		E4A5B0E123B0C1840023427C /* MintegralCustomEventRewardedVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MintegralCustomEventRewardedVideo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9335B41B26706400DEF1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F1E8E546ACD8FB9BE6B8C0 /* libPods-NativeAdvancedExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251F7703F39BA26D74B0101E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E4DA94204E0E08F7245030 /* libPods-NativeAdvancedExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BEBE0D401CB9D93B2F49AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B054DF565A07C352E5B077 /* Pods-NativeAdvancedExample.debug.xcconfig */,
+				7FCB1645129899FC94C95C4B /* Pods-NativeAdvancedExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF9335AE1B26706400DEF1B4 = {
+			isa = PBXGroup;
+			children = (
+				CF9335B91B26706400DEF1B4 /* NativeAdvancedExample */,
+				CF9335B81B26706400DEF1B4 /* Products */,
+				6BEBE0D401CB9D93B2F49AD2 /* Pods */,
+				251F7703F39BA26D74B0101E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9335B81B26706400DEF1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9335B71B26706400DEF1B4 /* NativeAdvancedExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9335B91B26706400DEF1B4 /* NativeAdvancedExample */ = {
+			isa = PBXGroup;
+			children = (
+				CF9335BE1B26706400DEF1B4 /* AppDelegate.h */,
+				CF9335BF1B26706400DEF1B4 /* AppDelegate.m */,
+				CF9335C11B26706400DEF1B4 /* ViewController.h */,
+				CF9335C21B26706400DEF1B4 /* ViewController.m */,
+				CF9335C41B26706400DEF1B4 /* Main.storyboard */,
+				CF9335C71B26706400DEF1B4 /* Images.xcassets */,
+				CF9335E61B26715A00DEF1B4 /* UnifiedNativeAdView.xib */,
+				E4A5B0BE23B0C1840023427C /* MintegralCustomEvent */,
+				CF9335C91B26706400DEF1B4 /* LaunchScreen.xib */,
+				CF9335BA1B26706400DEF1B4 /* Supporting Files */,
+			);
+			path = NativeAdvancedExample;
+			sourceTree = "<group>";
+		};
+		CF9335BA1B26706400DEF1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9335BB1B26706400DEF1B4 /* Info.plist */,
+				CF9335BC1B26706400DEF1B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4A5B0BE23B0C1840023427C /* MintegralCustomEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0BF23B0C1840023427C /* MTGInterstitialVideoAd */,
+				E4A5B0C223B0C1840023427C /* NativeAd */,
+				E4A5B0C723B0C1840023427C /* MTGBannerAd */,
+				E4A5B0CA23B0C1840023427C /* MTGCommon */,
+				E4A5B0CF23B0C1840023427C /* MTGInterstitialAd */,
+				E4A5B0D923B0C1840023427C /* RewardAdLegacy */,
+				E4A5B0DF23B0C1840023427C /* MTGRewardVideoAd */,
+			);
+			path = MintegralCustomEvent;
+			sourceTree = "<group>";
+		};
+		E4A5B0BF23B0C1840023427C /* MTGInterstitialVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0C023B0C1840023427C /* MintegralCustomEventInterstitialVideo.m */,
+				E4A5B0C123B0C1840023427C /* MintegralCustomEventInterstitialVideo.h */,
+			);
+			path = MTGInterstitialVideoAd;
+			sourceTree = "<group>";
+		};
+		E4A5B0C223B0C1840023427C /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0C323B0C1840023427C /* MintegralCustomEventNativeAd.m */,
+				E4A5B0C423B0C1840023427C /* MintegralMediatedNativeAd.h */,
+				E4A5B0C523B0C1840023427C /* MintegralCustomEventNativeAd.h */,
+				E4A5B0C623B0C1840023427C /* MintegralMediatedNativeAd.m */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		E4A5B0C723B0C1840023427C /* MTGBannerAd */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0C823B0C1840023427C /* MintegralCustomEventBannerAd.m */,
+				E4A5B0C923B0C1840023427C /* MintegralCustomEventBannerAd.h */,
+			);
+			path = MTGBannerAd;
+			sourceTree = "<group>";
+		};
+		E4A5B0CA23B0C1840023427C /* MTGCommon */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0CB23B0C1840023427C /* MintegralHelper.m */,
+				E4A5B0CC23B0C1840023427C /* MintegralAdNetworkExtras.m */,
+				E4A5B0CD23B0C1840023427C /* MintegralAdNetworkExtras.h */,
+				E4A5B0CE23B0C1840023427C /* MintegralHelper.h */,
+			);
+			path = MTGCommon;
+			sourceTree = "<group>";
+		};
+		E4A5B0CF23B0C1840023427C /* MTGInterstitialAd */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0D023B0C1840023427C /* MintegralCustomEventInterstitial.h */,
+				E4A5B0D123B0C1840023427C /* MintegralCustomEventInterstitial.m */,
+			);
+			path = MTGInterstitialAd;
+			sourceTree = "<group>";
+		};
+		E4A5B0D923B0C1840023427C /* RewardAdLegacy */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0DA23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.m */,
+				E4A5B0DB23B0C1840023427C /* MintegralAdapterProtocol.h */,
+				E4A5B0DC23B0C1840023427C /* MintegralAdapterDelegate.h */,
+				E4A5B0DD23B0C1840023427C /* MintegralAdapterDelegate.m */,
+				E4A5B0DE23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.h */,
+			);
+			path = RewardAdLegacy;
+			sourceTree = "<group>";
+		};
+		E4A5B0DF23B0C1840023427C /* MTGRewardVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5B0E023B0C1840023427C /* MintegralCustomEventRewardedVideo.m */,
+				E4A5B0E123B0C1840023427C /* MintegralCustomEventRewardedVideo.h */,
+			);
+			path = MTGRewardVideoAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9335B61B26706400DEF1B4 /* NativeAdvancedExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9335DA1B26706400DEF1B4 /* Build configuration list for PBXNativeTarget "NativeAdvancedExample" */;
+			buildPhases = (
+				7B815C615A57EEE8A33794B6 /* [CP] Check Pods Manifest.lock */,
+				CF9335B31B26706400DEF1B4 /* Sources */,
+				CF9335B41B26706400DEF1B4 /* Frameworks */,
+				CF9335B51B26706400DEF1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeAdvancedExample;
+			productName = NativeAdvancedExample;
+			productReference = CF9335B71B26706400DEF1B4 /* NativeAdvancedExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9335AF1B26706400DEF1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					CF9335B61B26706400DEF1B4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = DJRJZKDWWH;
+					};
+				};
+			};
+			buildConfigurationList = CF9335B21B26706400DEF1B4 /* Build configuration list for PBXProject "NativeAdvancedExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CF9335AE1B26706400DEF1B4;
+			productRefGroup = CF9335B81B26706400DEF1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9335B61B26706400DEF1B4 /* NativeAdvancedExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9335B51B26706400DEF1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9335C61B26706400DEF1B4 /* Main.storyboard in Resources */,
+				CF9335CB1B26706400DEF1B4 /* LaunchScreen.xib in Resources */,
+				CF9335EC1B26715A00DEF1B4 /* UnifiedNativeAdView.xib in Resources */,
+				CF9335C81B26706400DEF1B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B815C615A57EEE8A33794B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAdvancedExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9335B31B26706400DEF1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5B0E423B0C1840023427C /* MintegralMediatedNativeAd.m in Sources */,
+				E4A5B0E523B0C1840023427C /* MintegralCustomEventBannerAd.m in Sources */,
+				E4A5B0E723B0C1840023427C /* MintegralAdNetworkExtras.m in Sources */,
+				CF9335C31B26706400DEF1B4 /* ViewController.m in Sources */,
+				E4A5B0E223B0C1840023427C /* MintegralCustomEventInterstitialVideo.m in Sources */,
+				CF9335C01B26706400DEF1B4 /* AppDelegate.m in Sources */,
+				E4A5B0E323B0C1840023427C /* MintegralCustomEventNativeAd.m in Sources */,
+				E4A5B0EC23B0C1840023427C /* MintegralCustomEventRewardedVideoLegacy.m in Sources */,
+				E4A5B0E823B0C1840023427C /* MintegralCustomEventInterstitial.m in Sources */,
+				E4A5B0EE23B0C1840023427C /* MintegralCustomEventRewardedVideo.m in Sources */,
+				CF9335BD1B26706400DEF1B4 /* main.m in Sources */,
+				E4A5B0ED23B0C1840023427C /* MintegralAdapterDelegate.m in Sources */,
+				E4A5B0E623B0C1840023427C /* MintegralHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF9335C41B26706400DEF1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9335C51B26706400DEF1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9335C91B26706400DEF1B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9335CA1B26706400DEF1B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CF9335E61B26715A00DEF1B4 /* UnifiedNativeAdView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9335E71B26715A00DEF1B4 /* Base */,
+			);
+			name = UnifiedNativeAdView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9335D81B26706400DEF1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9335D91B26706400DEF1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9335DB1B26706400DEF1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B054DF565A07C352E5B077 /* Pods-NativeAdvancedExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				INFOPLIST_FILE = NativeAdvancedExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegrtal.AdmobNativeAdvancedExample;
+				PRODUCT_NAME = NativeAdvancedExample;
+			};
+			name = Debug;
+		};
+		CF9335DC1B26706400DEF1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCB1645129899FC94C95C4B /* Pods-NativeAdvancedExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				INFOPLIST_FILE = NativeAdvancedExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegrtal.AdmobNativeAdvancedExample;
+				PRODUCT_NAME = NativeAdvancedExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9335B21B26706400DEF1B4 /* Build configuration list for PBXProject "NativeAdvancedExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9335D81B26706400DEF1B4 /* Debug */,
+				CF9335D91B26706400DEF1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9335DA1B26706400DEF1B4 /* Build configuration list for PBXNativeTarget "NativeAdvancedExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9335DB1B26706400DEF1B4 /* Debug */,
+				CF9335DC1B26706400DEF1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9335AF1B26706400DEF1B4 /* Project object */;
+}
