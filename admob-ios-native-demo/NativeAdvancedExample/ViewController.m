@@ -16,7 +16,7 @@
 
 // Native Advanced ad unit ID for testing.
 //static NSString *const TestAdUnit = @"ca-app-pub-3940256099942544/3986624511";//MintegralCustomEvent
-static NSString *const TestAdUnit = @"ca-app-pub-7884921940228616/7743492959";//ca-app-pub-7884921940228616/7743492959
+static NSString *const TestAdUnit = @"ca-app-pub-4212257319667437/3120750499";//ca-app-pub-7884921940228616/7743492959
 
 @interface ViewController () <GADUnifiedNativeAdLoaderDelegate,
                               GADVideoControllerDelegate,
